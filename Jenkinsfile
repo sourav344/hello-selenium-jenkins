@@ -3,7 +3,7 @@ pipeline {
     agent { label 'selenium-agent' }
 
     tools {
-        jdk 'JDK17'
+        jdk 'JDK23'
         maven 'Maven3'
     }
 
